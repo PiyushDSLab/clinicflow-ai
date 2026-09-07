@@ -1,6 +1,16 @@
 # ClinicFlow AI
 
-ClinicFlow AI is a functional SaaS MVP demonstrating how an AI-powered clinic operations assistant can automate repetitive administrative communication while keeping medical and sensitive conversations under human control.
+> AI-powered receptionist and clinic operations assistant for small clinics.
+
+**🚀 Live Demo:** [Try ClinicFlow AI](https://annual-french-scale--piyushsable.replit.app/clinicflow-mobile/ )
+
+**🎥 Product Demo:** [Watch the Demo](https://drive.google.com/file/d/1OE86desxmcnJmlmKB7Jdo8mwKJlk4Ra7/view?usp=sharing)
+
+**💻 Source Code:** [GitHub Repository](https://github.com/PiyushDSLab/clinicflow-ai)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ClinicFlow AI is a working SaaS MVP/prototype demonstrating how an AI-powered clinic operations assistant can automate repetitive administrative communication while keeping medical and sensitive conversations under human control.
 
 ## Problem
 
