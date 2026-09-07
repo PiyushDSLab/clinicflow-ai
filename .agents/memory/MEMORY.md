@@ -1,0 +1,1 @@
+- [API schema barrel](api-schema-barrel.md) — Orval can re-add a generated-types export that collides with request-body exports; keep the barrel single-sourced after codegen.
