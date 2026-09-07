@@ -1,0 +1,29 @@
+kind = "video"
+videoAspectRatio = "16:9"
+previewPath = "/clinicflow-ai-video/"
+title = "ClinicFlow AI — Product Demo"
+description = "A 16:9 animated product demo for ClinicFlow AI showing patient messaging, appointment automation, reminders, and human medical-safety handoff."
+version = "1.0.0"
+id = "artifacts/clinicflow-ai-video"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/clinicflow-ai-video/" ]
+localPort = 21716
+
+[services.development]
+run = "pnpm --filter @workspace/clinicflow-ai-video run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/clinicflow-ai-video", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/clinicflow-ai-video/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21716"
+BASE_PATH = "/clinicflow-ai-video/"
